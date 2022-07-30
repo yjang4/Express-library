@@ -131,10 +131,6 @@ exports.genre_delete_get = function(req, res, next) {
 };
 
 // Handle Genre delete on POST.
-exports.genre_delete_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre delete POST');
-};
-// Handle Genre delete on POST.
 exports.genre_delete_post = function(req, res, next) {
 
     async.parallel({
